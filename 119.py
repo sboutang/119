@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+#
+# take in a domain name or space seperated list of domain names and convert to dhcp option 119
+#
 import argparse
 
 def convert_domains_to_option_119(domains):
